@@ -34,7 +34,7 @@ li {
 }
 
 .filters .locations{
-    display: flex;
+    /*display: flex;*/
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
@@ -79,30 +79,15 @@ li {
 
 .popover{
     list-style: none;
+    border-radius: 4px;
 }
 
 .completeList{
-    display: none;
+    visibility: hidden;
 }
-.completeListAmeni{
-    display: none;
+.locations:hover .completeList{
+    visibility: visible;
 }
-.popover {
-    position: relative;
-    overflow:auto;
-    border-radius: 4px;
-    z-index: 1;
-}
-
-.locations:hover .completeList {
-    display: block;
-}
-
-.amenities:hover .completeListAmeni{
-    display: block;
-}
-
-
 
 
 .filters .amenities .amenH3{
@@ -112,7 +97,7 @@ li {
     height: 25%;
 }
 .filters .amenities{
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     height: 100%;
     width: 25%;
@@ -142,4 +127,10 @@ li {
     border-radius: 4px;
     width: 99.5%;
     background-color:#FAFAFA ;
+}
+.completeListAmeni{
+    visibility: hidden;
+}
+.amenities:hover .completeListAmeni{
+    visibility: visible;
 }
