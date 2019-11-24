@@ -55,14 +55,13 @@ li {
 .filters .locations .locaH4 h4 {
     font-size: 14px;
     color: #000000;
-    margin-left: 15%;
+    margin-left: 10%;
     font-weight: 400;
 }
 .filters .locations .locaH3 h3{
     font-weight: 600;
-    font-size: 14px;
     color: #000000;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .filters .locations .completeList{
     color: black;
@@ -88,13 +87,15 @@ li {
 }
 .locations:hover .completeList{
     visibility: visible;
+    z-index: 1;
+    position: relative;
 }
 /******************/
 .completeList ul{
     margin: 0;
 }
 
-
+/*Style for amenities*/
 .filters .amenities .amenH3{
     height: 25%;
 }
@@ -115,17 +116,17 @@ li {
 
 .filters .amenities .amenH3 h3{
     font-weight: 600;
-    font-size: 14px;
     color: #000000;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .filters .amenities .amenH4 h4{
     font-size: 14px;
     color: #000000;
-    margin-left: 15%;
+    margin-left: 10%;
     font-weight: 400;
 }
+/*Add the style to box that contain the list to amenities*/
 .filters .amenities .completeListAmeni{
     color: black;
     border: 1px solid #DDDDDD;
@@ -138,4 +139,37 @@ li {
 }
 .amenities:hover .completeListAmeni{
     visibility: visible;
+    z-index: 1;
+    position: relative;
+}
+
+/* Style to section Places*/
+.places{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.placeTitle{
+    margin-top: 30px;
+}
+.placeTitle h1{
+    margin-left: 30px;
+    margin-block-end: 0;
+}
+.placesName{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.place{
+    width: 390px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.place h2{
+    font-size: 30px;
 }
