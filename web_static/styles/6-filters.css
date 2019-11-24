@@ -142,34 +142,3 @@ li {
     z-index: 1;
     position: relative;
 }
-
-/* Style to section Places*/
-.places{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.placeTitle{
-    margin-top: 30px;
-}
-.placeTitle h1{
-    margin-left: 30px;
-    margin-block-end: 0;
-}
-.placesName{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.place{
-    width: 390px;
-    border: 1px solid #FF5A5F;
-    border-radius: 4px;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-}
-.place h2{
-    font-size: 30px;
-}

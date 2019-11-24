@@ -1,0 +1,66 @@
+/* Style to section Places*/
+.places{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.placeTitle{
+    margin-top: 30px;
+}
+.placeTitle h1{
+    margin-left: 30px;
+    margin-block-end: 0;
+}
+.placesName{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.place{
+    width: 390px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.place h2{
+    font-size: 30px;
+}
+/*************************/
+/*style to description of places and prices*/
+.name_price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.name{
+    width: 80%;
+    margin-left: 15%;
+}
+.name_price h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.price_by_night{
+    width: 20%;
+    height: 60px;
+    min-width: 60px;
+    border: 4px solid #FF5A5F;
+    border-radius: 100%;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+}
+.price_by_night h3{
+    width: 20%;
+    font-size: 30px;
+}
+.information{
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
