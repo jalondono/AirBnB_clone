@@ -7,6 +7,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow-y: scroll;
+    position: relative;
 }
 .container{
     max-width: 1000px;

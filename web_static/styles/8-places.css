@@ -23,7 +23,7 @@
     border-radius: 4px;
     text-align: center;
     margin: 20px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 .place h2{
     font-size: 30px;
@@ -34,16 +34,17 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
-
+    align-items: flex-start;
+    vertical-align: top;
 }
 .name{
     width: 80%;
-    margin-left: 15%;
+    margin-left: 23%;
 }
 .name_price h2{
     margin-block-start: 0;
     margin-block-end: 0;
+    margin-top: 10px;
 }
 .price_by_night{
     width: 20%;
@@ -55,12 +56,86 @@
     text-align: center;
     vertical-align: middle;
     line-height: 55px;
-}
-.price_by_night h3{
-    width: 20%;
-    font-size: 30px;
+    color: #FF5A5F ;
+    margin: 10px;
+
 }
 .information{
     border-top: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80px;
 }
+/*Style to max guest*/
+.max_guest{
+    background-image: url("../images/icon_group.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.imgGuest{
+    height: 40%;
+}
+.imgText{
+    height: 60%;
+ }
+/****************************/
+
+/**Style to Rooms*/
+.number_rooms{
+    background-image: url("../images/icon_bed.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.BedImg{
+    height: 40%;
+}
+.BedText{
+    height: 60%;
+}
+/*******************************/
+
+/**Style to BathRooms*/
+.number_bathrooms{
+    background-image: url("../images/icon_bath.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.BathImg{
+    height: 40%;
+}
+.BathText{
+    height: 60%;
+}
+/*******************************/
+
+
+/**Style to description of a place*/
+.user{
+    margin-top: 10px;
+    text-align: left;
+}
+.description{
+    text-align: left;
+}
+.description p{
+    margin-block-start: 5px;
+}
+
+/**********************************/
